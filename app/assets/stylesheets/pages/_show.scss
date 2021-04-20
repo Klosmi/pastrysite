@@ -78,9 +78,10 @@
 
 /*********  responsive screen sizes *********/
 @media screen and (min-width: 1900px) {
-  .show-tools-container {
-    padding: 20px 15vw;
-}
+    .show-tools-container {
+        padding: 20px 15vw;
+    }
+
     .tool-images img {
         width: 100%;
         border-radius: 10px;
@@ -89,26 +90,29 @@
 
 @media screen and (max-width: 1200px) {
     .show-tool {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
     .tool-images img {
         max-width: 100%;
         max-height: 100%;
         border-radius: 10px;
     }
+
     .description-price {
         max-width: 490px;
         padding-left: 10px;
-      }
+    }
 }
 
 @media screen and (max-width: 1100px) {
     .tool-images img {
         min-width: 100%;
-        max-height:100%;
+        max-height: 100%;
         border-radius: 10px;
+        padding-bottom: 20px
     }
 }
 
@@ -117,6 +121,7 @@
         min-width: 100%;
         max-height: 100%;
         border-radius: 10px;
+        padding-bottom: 20px
     }
 
     .description-price {
@@ -132,7 +137,7 @@
     .tool-images img {
         max-width: 100%;
         max-height: 500px;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 
     .description-price {
@@ -159,6 +164,7 @@
         max-width: 100%;
         max-height: 100%;
         border-radius: 10px;
+        padding-bottom: 0;
     }
 
     .description-price {
@@ -187,5 +193,5 @@
     .description-price {
         max-width: 500px;
         padding-bottom: 40px;
-}
+    }
 }
