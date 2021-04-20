@@ -1,0 +1,104 @@
+.booking-form-show #new_booking {
+//     display: flex;
+//     justify-content: center;
+//     border-radius: 50px;
+//     padding-top: 20px;
+}
+
+.booking-button-newline {
+    position: relative;
+    top: 60px;
+    left:-5px;
+    border: none;
+    background: none;
+}
+ .bookings .form-group {
+    margin-bottom: 1rem;
+    margin-top: -266px;
+}
+.booking_start_date #range_start,
+.booking_end_date #range_end {
+    max-width: 230px !important;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: -40px;
+}
+
+/* flat-pickr calender position */
+.flatpickr-calendar {
+    display: block;
+    position: relative;
+    left: 80%;
+}
+
+/*********  responsive screen sizes *********/
+@media screen and (max-width: 1200px) {
+
+    .booking_start_date #range_start,
+    .booking_end_date #range_end {
+        width: 230px !important;
+        height: 40px;
+    }
+    .booking-button-newline {
+    right: 542px;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .booking_start_date #range_start,
+    .booking_end_date #range_end {
+        max-width: 150px !important;
+        height: 40px;
+    }
+        .booking-button-newline {
+    right: 485px;
+}
+
+    .form-group {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    .booking_start_date #range_start,
+    .booking_end_date #range_end {
+        min-width: 210px !important;
+        height: 40px;
+    }
+            .booking-button-newline {
+    right: 545px;
+}
+}
+
+@media screen and (max-width: 730px) {
+    .booking-form-show #new_booking {
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+    }
+
+    .booking_start_date #range_start,
+    .booking_end_date #range_end {
+        min-width: 80vw !important;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .booking_start_date #range_start,
+    .booking_end_date #range_end {
+        min-width: 85vw !important;
+        height: 40px;
+    }
+
+    .booking-form-show #new_booking {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        display: block;
+    }
+}

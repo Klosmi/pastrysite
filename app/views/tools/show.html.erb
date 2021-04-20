@@ -1,0 +1,32 @@
+<div class="show-tools-container">
+    <!--  columns  -->
+    <!-- title -->
+    <h1 class="tool-title-show">
+        <%= @tool.name %>
+    </h1>
+    <div class="show-tool">
+        <!-- tools -->
+        <div class="tool-images-bookings">
+            <div class="chip">
+                <%= @tool.category %>
+            </div>
+            <!--  images & bookings  -->
+            <div>
+                <%= image_tag @tool.picture, alt: "image of the tool", class: "img-tool"%>
+                <!-- booking -->
+                <div class="bookings d-inline-flex flex-row">
+                    <%= render "bookings/form", booking:@booking, tool:@tool %>
+                </div>
+            </div>
+        </div>
+        <div class="description-price">
+            <div class="description">
+                <p>
+                    <%= @tool.details %>
+                </p>
+            </div>
+            <p>Price: <span class="price">
+                    <%= @tool.price_by_day %> €</span> / day</p>
+        </div>
+    </div>
+</div>

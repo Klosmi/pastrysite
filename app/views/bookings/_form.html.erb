@@ -1,0 +1,13 @@
+<div class="booking-form-show ">
+    <%= simple_form_for [tool, booking] do |f| %>
+    <%= f.input  :start_date, as: :string, required: false, input_html: {id: "range_start"} %>
+    <div id="booking-form-div" data-bookings="<%= @bookings_dates.to_json %>">
+    </div>
+    <div>
+    <%= f.input  :end_date,   as: :string, required: false, input_html: {id: "range_end"} %>
+
+        <button class="booking-button-newline">
+            <%= f.button :submit, "Book", class: "booking-button btn btn-secondary" %></button>
+        <% end %>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+<div class="tools-container">
+    <div class="title">
+        <h1>Find your tools</h1>
+        <!--     search from  -->
+        <div class="search-form">
+            <div class="input-group d-flex justify-content-center">
+                <div class="form-inline">
+                    <%= form_tag tools_path, method: :get do %>
+                    <%= text_field_tag :query, params[:query], class: "form-control shadow-none", placeholder: "Find a tool" %>
+                    <span class='input-group-btn'>
+                        <%= button_tag(type: 'submit', class: "search-btn btn") do %>
+                    </span>
+                    <i class="fa fa-search"></i> Search
+                    <% end %>
+                    <% end %>
+                </div>
+            </div>
+        </div>
+        <!-- cards -->
+        <div class="card-tool">
+            <% @tools.each do |tool| %>
+            <div class="firstimage">
+                <%= link_to (image_tag tool.picture), tool_path(tool), class: "card-image" %>
+                <div class="card-tool-infos">
+                    <h3>
+                        <%= link_to tool.name.truncate(22), tool_path(tool) %>
+                    </h3>
+                    <div class="price">
+                        <p>$
+                            <%= tool.price_by_day %> /day</p>
+                    </div>
+                </div>
+            </div>
+            <% end %>
+        </div>
+    </div>
+</div>
