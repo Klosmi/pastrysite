@@ -1,21 +1,18 @@
-.booking-form-show #new_booking {
-//     display: flex;
-//     justify-content: center;
-//     border-radius: 50px;
-//     padding-top: 20px;
-}
-
+/* booking button position */
 .booking-button-newline {
     position: relative;
     top: 60px;
-    left:-5px;
+    left: -5px;
     border: none;
     background: none;
 }
- .bookings .form-group {
+
+.bookings .form-group {
     margin-bottom: 1rem;
     margin-top: -266px;
+    color: #a4a4a4;
 }
+
 .booking_start_date #range_start,
 .booking_end_date #range_end {
     max-width: 230px !important;
@@ -31,33 +28,90 @@
     left: 80%;
 }
 
+/* flat-picker font color */
+.flatpickr-months .flatpickr-month,
+.flatpickr-weekday,
+    {
+    color: $color-lightblue !important;
+}
+
 /*********  responsive screen sizes *********/
+@media screen and (min-width: 1200px) {
+    .booking_start_date #range_start,
+    .booking_end_date #range_end {
+        min-width: 350px !important;
+        height: 40px;
+    }
+
+    .booking-form-show #new_booking {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    /* flat-pickr calender position */
+    .flatpickr-calendar.inline {
+        display: block;
+        position: relative;
+        left: 0;
+        top: 230px !important;
+    }
+}
+
 @media screen and (max-width: 1200px) {
+    .bookings .form-group {
+        margin-bottom: 1rem;
+        margin-top: -266px;
+        color: #a4a4a4;
+        position: relative;
+    }
 
     .booking_start_date #range_start,
     .booking_end_date #range_end {
-        width: 230px !important;
+        width: 130px !important;
         height: 40px;
     }
+
     .booking-button-newline {
-    right: 542px;
+        right: 542px;
+    }
+
+    .flatpickr-calendar {
+        display: block;
+        position: relative;
+        left: 50%;
+    }
 }
 
-}
-
-@media screen and (max-width: 900px) {
-
+@media screen and (max-width: 990px) {
+    .tool-bookings{
+      position:relative;
+      top: -15%;
+    }
     .booking_start_date #range_start,
     .booking_end_date #range_end {
-        max-width: 150px !important;
+        min-width: 320px !important;
         height: 40px;
     }
-        .booking-button-newline {
-    right: 485px;
-}
 
-    .form-group {
-        padding-right: 10px;
+    .booking-form-show #new_booking {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    /* flat-pickr calender position */
+    .flatpickr-calendar.inline {
+        display: block;
+        position: relative;
+        left: 0;
+        top: 230px !important;
+    }
+}
+@media only screen and (max-width: 890px) and (min-width: 850px){
+ .tool-bookings{
+      position:relative;
+      top: -40%;
     }
 }
 
@@ -68,9 +122,24 @@
         min-width: 210px !important;
         height: 40px;
     }
-            .booking-button-newline {
-    right: 545px;
-}
+
+    .booking-button-newline {
+        right: 545px;
+    }
+
+    .booking-button-newline {
+        position: relative;
+        top: -102px !important;
+        left: 220px !important;
+    }
+
+    .flatpickr-calendar.inline {
+        display: block;
+        position: relative;
+        left: 0;
+        top: 150px !important;
+    }
+
 }
 
 @media screen and (max-width: 730px) {
@@ -82,16 +151,31 @@
 
     .booking_start_date #range_start,
     .booking_end_date #range_end {
-        min-width: 80vw !important;
-        height: 40px;
+        margin-right: auto;
+        width: 90%;
     }
+
+    .flatpickr-calendar.inline {
+        display: block;
+        position: relative;
+        left: 0;
+        top: 160px !important;
+    }
+
+    /* booking button position */
+    .booking-button-newline {
+        position: relative;
+        top: -100px !important;
+        left: 230px !important;
+    }
+
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) and (min-width: 319 px) {
 
     .booking_start_date #range_start,
     .booking_end_date #range_end {
-        min-width: 85vw !important;
+        min-width: 50vw !important;
         height: 40px;
     }
 
@@ -101,4 +185,16 @@
         width: 90%;
         display: block;
     }
+
+    /* booking button position */
+    .booking-button-newline {
+        position: relative;
+        top: -102px !important;
+        left: 200px !important;
+    }
+ .flatpickr-calendar.inline {
+
+    }
 }
+
+
