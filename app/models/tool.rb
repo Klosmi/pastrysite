@@ -1,4 +1,3 @@
-## Code Linda ##
 class Tool < ApplicationRecord
    CATEGORY = ["storage/presentation", "books", "mold", "accessory", "robot"]
   belongs_to :user
@@ -18,7 +17,7 @@ class Tool < ApplicationRecord
   pg_search_scope :search_by_name_and_details,
     against: [ :name, :details ],
     using: {
-      tsearch: { prefix: true }
+      search: { prefix: true }
     }
 end
 
