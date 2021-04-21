@@ -1,19 +1,26 @@
 <div class="show-tools-container">
     <!--  columns  -->
     <!-- title -->
-    <h1 class="tool-title-show">
-        <%= @tool.name %>
-    </h1>
-                <div class="chip">
-                <%= @tool.category %>
-            </div>
+    <div class="title-backbutton-position">
+        <h1 class="tool-title-show">
+            <%= @tool.name %>
+        </h1>
+        <span class="back-button-position">
+            <%= link_to tools_path, class: "back-btn" do %>
+            <i class="fa fa-arrow-left"></i>
+            <% end %>
+          </span>
+    </div>
+    <div class="chip">
+        <%= @tool.category %>
+    </div>
     <div class="show-tool">
         <!-- tools -->
         <div class="tool-images">
             <!--  images & bookings  -->
             <%= image_tag @tool.picture, alt: "image of the tool", class: "img-tool"%>
         </div>
-                <div class="description-price">
+        <div class="description-price">
             <div class="description">
                 <p>
                     <%= @tool.details %>
@@ -29,4 +36,20 @@
             </div>
         </div>
     </div>
+    <!--  back button  -->
 </div>
+ <div class="">
+        <h4 class="text-center">Location</h4>
+        <strong>
+            <p class="text-center">
+                <%= @tool.address %>
+            </p>
+        </strong>
+    </div>
+    <!-- map -->
+
+    <div class="map"
+      style="width: 100%; height: 600px;"
+     data-markers="<%= @markers.to_json %>"
+     data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+     </div>
