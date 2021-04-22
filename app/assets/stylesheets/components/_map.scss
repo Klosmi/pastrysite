@@ -1,0 +1,17 @@
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.mapboxgl-map {
+    z-index: -1;
+    margin-top: 15%;
+}
+
+.mapboxgl-ctrl {
+    visibility: hidden;
+}

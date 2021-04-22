@@ -1,5 +1,4 @@
-.search-btn,
-.booking-button {
+.search-btn {
     // padding: 5px 50px;
     background: linear-gradient(207deg, rgba(173, 213, 204, 1) 0%, rgba(163, 165, 215, 1) 100%);
     border-radius: 50px;
@@ -18,16 +17,17 @@
 }
 
 .back-btn {
-    padding: 5px 50px;
-    background: linear-gradient(207deg, rgba(173, 213, 204, 1) 0%, rgba(163, 165, 215, 1) 100%);
+    background: linear-gradient(207deg, rgba(209, 95, 255, 1) 0%, rgba(93, 108, 252, 1) 100%);
     border-radius: 50px;
     font-weight: 600;
     color: #FFF;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
     transition-duration: 800ms;
+    padding: 7px 30px;
+    height: 40px !important;
 
     &:hover {
-        background: linear-gradient(207deg, rgba(209, 95, 255, 1) 0%, rgba(93, 108, 252, 1) 100%);
+        background: linear-gradient(207deg, rgba(173, 213, 204, 1) 0%, rgba(163, 165, 215, 1) 100%);
         color: #FFF;
         text-decoration: none;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -58,7 +58,7 @@
 }
 
 .booking-button {
-    background: linear-gradient(207deg, rgba(173, 213, 204, 1) 0%, rgba(163, 165, 215, 1) 100%);
+    background: linear-gradient(207deg, rgba(209, 95, 255, 1) 0%, rgba(93, 108, 252, 1) 100%);
     border-radius: 50px;
     font-weight: 600;
     color: #FFF;
@@ -68,9 +68,21 @@
     height: 40px !important;
 
     &:hover {
-        background: linear-gradient(207deg, rgba(209, 95, 255, 1) 0%, rgba(93, 108, 252, 1) 100%);
+        background: linear-gradient(207deg, rgba(173, 213, 204, 1) 0%, rgba(163, 165, 215, 1) 100%);
         color: #FFF;
         text-decoration: none;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.address-to-map {
+    font-weight: 600;
+    color: $color-darkgreen;
+    transition-duration: 800ms;
+    height: 40px;
+
+    &:hover {
+        color: $color-purple;
+        text-decoration: none;
     }
 }

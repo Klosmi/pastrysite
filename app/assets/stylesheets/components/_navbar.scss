@@ -19,10 +19,21 @@
   width: 25px ;
   margin: 7px 5px;
 }
+.user-email{
+  color: $color-lightpurple;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
 
 
 .nav-link {
   font-family: Montserrat, sans-serif;
+   color: $color-purple !important;
+   transition-duration: 800ms;
+   &:hover{
+    color: $color-lightpurple !important;
+    transition-duration: 800ms;
+   }
 }
 
 .navbar-brand {
