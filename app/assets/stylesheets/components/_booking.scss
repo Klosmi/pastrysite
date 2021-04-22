@@ -35,6 +35,7 @@
     color: $color-lightblue !important;
 }
 
+
 /*********  responsive screen sizes *********/
 @media screen and (min-width: 1200px) {
     .booking_start_date #range_start,
@@ -86,7 +87,7 @@
 @media screen and (max-width: 990px) {
     .tool-bookings{
       position:relative;
-      top: -15%;
+      top: -30%;
     }
     .booking_start_date #range_start,
     .booking_end_date #range_end {

@@ -107,7 +107,7 @@ Tool.create!(
         price_by_day: 3,
         picture: "https://res.cloudinary.com/dkqxfdutt/image/upload/v1615233883/image_asujc7.png",
         category: "accessory",
-        address: "6 rue de Fossé, Strasbourg",
+        address: "11 Halliwell Road, London",
         user_id: user.id
         )
 

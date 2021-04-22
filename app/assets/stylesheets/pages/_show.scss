@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .show-tools-container {
     padding: 20px 9vw;
 }
@@ -63,6 +67,9 @@
     font-weight: 600;
     color: $color-purple;
     font-size: 18px;
+    &:hover{
+      color: $color-lightpurple;
+    }
 }
 
 
@@ -140,6 +147,9 @@
     }
 }
 
+.address-to-map{
+  margin-bottom:40px;
+}
 @media screen and (max-width: 830px) {
     .show-tools-container {
         padding: 10px 5vw;

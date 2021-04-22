@@ -9,7 +9,7 @@
             <%= link_to tools_path, class: "back-btn" do %>
             <i class="fa fa-arrow-left"></i>
             <% end %>
-          </span>
+        </span>
     </div>
     <div class="chip">
         <%= @tool.category %>
@@ -26,8 +26,11 @@
                     <%= @tool.details %>
                 </p>
             </div>
-            <p>Price: <span class="price">
-                    <%= @tool.price_by_day %> €</span> / day</p>
+            <p><strong>Price: <span class="price">
+                    <%= @tool.price_by_day %> €</span> / day</strong></p>
+            <p><a href="#map"><span class="address-to-map">Address:
+            </span><span class="price">  <%= @tool.address %></span>
+            <i class="fa fa-chevron-circle-down address-to-map"></i></a></p>
         </div>
         <div class="tool-bookings">
             <!-- booking -->
@@ -36,20 +39,7 @@
             </div>
         </div>
     </div>
-    <!--  back button  -->
 </div>
- <div class="">
-        <h4 class="text-center">Location</h4>
-        <strong>
-            <p class="text-center">
-                <%= @tool.address %>
-            </p>
-        </strong>
-    </div>
-    <!-- map -->
-
-    <div id="map"
-      style="width: 100%; height: 600px;"
-     data-markers="<%= @markers.to_json %>"
-     data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
-     </div>
+<!-- map -->
+<div id="map" style="width: 100%; height: 600px;" data-markers="<%= @markers.to_json %>" data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+</div>
