@@ -17,18 +17,21 @@
 
 .userimage img{
   width: 25px ;
-  margin: 7px 5px;
+  margin: 15px 5px;
 }
 .user-email{
   color: $color-lightpurple;
   font-weight: 800;
   letter-spacing: 0.5px;
+  padding-top:15px;
+  padding-right: 5px;
 }
 
 .nav-link {
   font-family: Montserrat, sans-serif;
    color: $color-purple !important;
    transition-duration: 800ms;
+   padding: 15px 0.5rem;
    &:hover{
     color: $color-lightpurple !important;
     transition-duration: 800ms;
