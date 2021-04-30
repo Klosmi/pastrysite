@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  protect_from_rogery
+  protect_from_forgery
 
   private
 
