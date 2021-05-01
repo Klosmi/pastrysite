@@ -37,7 +37,8 @@ gem 'font-awesome-rails'
 gem 'flatpickr'
 gem 'simple_form'
 gem 'pg_search', '~> 2.3.0'
-
+# gem "algoliasearch-rails"
+# gem 'algolia', '~> 2.0', '>= 2.0.4'
 # gem 'cloudinary'
 
 
