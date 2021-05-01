@@ -2,18 +2,35 @@
   "name": "_pastry_confiction_tool",
   "private": true,
   "dependencies": {
+
+    "@algolia/autocomplete-js": "^1.0.0-alpha.44",
+    "@algolia/client-search": "^4.5.1",
+
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
+<<<<<<< HEAD
     "@rails/webpacker": "^5.3.0",
+=======
+    "@rails/webpacker": "4.3.0",
+    "algoliasearch": "^4.5.1",
+>>>>>>> e5f71a93aa9e7ee14bccab51f36612f13f9ca3bd
     "bootstrap": "^4.6.0",
     "channels": "^0.0.4",
     "flatpickr": "^4.6.9",
     "jquery": "^3.6.0",
+<<<<<<< HEAD
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0",
     "update": "^0.7.4"
+=======
+
+    "mapbox-gl": ">=0.47.0 <2.0.0",
+    "popper.js": "^1.16.1",
+    "turbolinks": "^5.2.0",
+    "webpack": "^4.0.0 || ^5.0.0"
+>>>>>>> e5f71a93aa9e7ee14bccab51f36612f13f9ca3bd
   },
   "version": "0.1.0",
   "devDependencies": {
