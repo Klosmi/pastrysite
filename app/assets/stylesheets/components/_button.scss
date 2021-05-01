@@ -40,8 +40,8 @@
 }
 
 .poligon-button-home {
-    background: linear-gradient(207deg, rgba(173, 213, 204, 1) 0%, rgba(163, 165, 215, 1) 100%);
-    transition: 0.4s cubic-bezier(1, -1, 0, 2);
+    background: rgba(173, 213, 204, 1);
+    transition: 800ms cubic-bezier(1, 0, 0.5, 1);
     clip-path: circle(100px at center);
     padding: 100px;
     font-weight: 600;
@@ -51,8 +51,8 @@
     &:hover {
         clip-path: circle(50px at center);
         font-weight: 600;
-        background-color: $color-blue;
-        color: $color-purple;
+        background-color: rgba(93, 108, 252, 1);
+        color: rgba(173, 213, 204, 1);
         text-decoration: none;
     }
 }
