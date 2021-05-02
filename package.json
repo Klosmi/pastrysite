@@ -7,48 +7,16 @@
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-<<<<<<< HEAD
-
     "@rails/webpacker": "^5.3.0",
-
-||||||| merged common ancestors
-<<<<<<< HEAD
-    "@rails/webpacker": "^5.3.0",
-=======
     "@rails/webpacker": "4.3.0",
     "algoliasearch": "^4.5.1",
->>>>>>> e5f71a93aa9e7ee14bccab51f36612f13f9ca3bd
-=======
-    "@rails/webpacker": "4.3.0",
-    "algoliasearch": "^4.5.1",
->>>>>>> fd7ae672c0ecdbf2cc4fcbaf5126cb23309c869b
-    "bootstrap": "^4.6.0",
-    "channels": "^0.0.4",
-    "flatpickr": "^4.6.9",
-    "jquery": "^3.6.0",
-<<<<<<< HEAD
-
-||||||| merged common ancestors
-<<<<<<< HEAD
-=======
->>>>>>> fd7ae672c0ecdbf2cc4fcbaf5126cb23309c869b
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0",
-<<<<<<< HEAD
     "update": "^0.7.4"
-
-||||||| merged common ancestors
-    "update": "^0.7.4"
-=======
-
     "mapbox-gl": ">=0.47.0 <2.0.0",
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0",
     "webpack": "^4.0.0 || ^5.0.0"
->>>>>>> e5f71a93aa9e7ee14bccab51f36612f13f9ca3bd
-=======
-    "webpack": "^4.46.0"
->>>>>>> fd7ae672c0ecdbf2cc4fcbaf5126cb23309c869b
   },
   "version": "0.1.0",
   "devDependencies": {
