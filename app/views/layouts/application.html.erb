@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>PastryConfictionTool</title>
+  <meta charset="UTF-8">
+    <title>Pastrytools</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <%= action_cable_meta_tag %>
+     <%= action_cable_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <%= stylesheet_pack_tag 'application' %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -17,19 +17,20 @@
 
 <body>
     <%= render 'shared/navbar' %>
-    <div class="alert-container">
-        <% if notice %>
-        <p class="notice">
-            <%= notice %>
-        </p>
-        <% end %>
-        <% if alert %>
-        <p class="alert">
-            <%= alert %>
-        </p>
-        <% end %>
-    </div>
+    <% if notice %>
+      <p class="notice">
+          <%= notice %>
+      </p>
+    <% end %>
+    <% if alert %>
+      <p class="alert">
+
+        <%= alert %>
+    </p>
+    <% end %>
     <%= yield %>
+
 </body>
 
 </html>
+
