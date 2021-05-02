@@ -23,8 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: pastrytools_development
-  # database: _pastry_confiction_tool_development
+  database: _pastry_confiction_tool_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -58,8 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: pastrytools_test
-  # database: _pastry_confiction_tool_test
+  database: _pastry_confiction_tool_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -84,5 +82,4 @@ production:
   <<: *default
   database: _pastry_confiction_tool_production
   username: _pastry_confiction_tool
-  password: <%= ENV['PASTRYTOOLS'] %>
-  # password: <%= ENV['_PASTRY_CONFICTION_TOOL_DATABASE_PASSWORD'] %>
+  password: <%= ENV['_PASTRY_CONFICTION_TOOL_DATABASE_PASSWORD'] %>
