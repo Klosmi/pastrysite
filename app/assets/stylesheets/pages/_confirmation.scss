@@ -5,20 +5,19 @@
 }
 
 .confirmed-name {
-    display: flex;
-    justify-content: flex-start;
-    color: $color-purple;
+  display: flex;
+  justify-content: flex-start;
+  color: $color-purple;
+}
+.guest-confirmed-firstname{
+  padding-right: 10px;
 }
 
-.guest-confirmed-firstname {
-    padding-right: 10px;
-}
-
-.guest-confirmed-lastname {
-    text-transform: uppercase;
+.guest-confirmed-lastname{
+   text-transform: uppercase;
 }
 
 .email-confirmed {
-    justify-content: flex-start;
-    color: $color-lightgreen;
+  justify-content: flex-start;
+  color: $color-lightgreen;
 }

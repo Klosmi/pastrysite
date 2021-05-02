@@ -1,26 +1,20 @@
-
 .range_start {
   display:grid;
   grid-gap: 60px;
-
 }
-
 
 .btn  {
-  color: white
-
+  color: #FFF;
 }
 
-
 .text-center1 {
-  color: #9f785c
+  color: $color-purple
 
 }
 .container-form{
   width: 600px;
     height: 150px;
-    background-color:white ;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.27);
-    border-radius:1px;
-    color: #9f785c;
+    background-color:#FFF;
+    border-radius:25px;
+    color: $color-purple;
 }

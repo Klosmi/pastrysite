@@ -1,3 +1,4 @@
+loginokay-styling
 .show-tools-container {
     padding: 20px 9vw;
 }
@@ -68,18 +69,6 @@
     }
 }
 
-
-// #map {
-//     // box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
-//     width: 300px;
-//     height: 400px;
-//     border-radius: 10px;
-//     margin: 20px 10px 20px 30px;
-//     transition-duration: 900ms;
-//     background-color: white;
-//     // #F4F4F4
-// }
-
 .back-button-position {
     padding: 20px 0;
     display: flex;
@@ -128,6 +117,7 @@
         min-width: 100%;
         max-height: 100%;
         border-radius: 10px;
+        padding-bottom: 20px
     }
 }
 
@@ -136,6 +126,7 @@
         min-width: 100%;
         max-height: 100%;
         border-radius: 10px;
+        padding-bottom: 20px
     }
 
     .description-price {
@@ -154,7 +145,7 @@
     .tool-images img {
         max-width: 100%;
         max-height: 500px;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 
     .description-price {
@@ -181,6 +172,7 @@
         max-width: 100%;
         max-height: 100%;
         border-radius: 10px;
+        padding-bottom: 0;
     }
 
     .description-price {
