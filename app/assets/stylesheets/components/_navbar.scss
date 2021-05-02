@@ -31,7 +31,7 @@
   font-family: Montserrat, sans-serif;
    color: $color-purple !important;
    transition-duration: 800ms;
-   padding-top: 15px 0.5rem !important;
+   padding-top: 15px 0.5rem;
    &:hover{
     color: $color-lightpurple !important;
     transition-duration: 800ms;
@@ -41,11 +41,6 @@
         transition-duration: 800ms;
     }
 }
-}
-
-.navbar-expand-sm .navbar-nav .nav-link {
-   padding-top: 15px;
-  }
 
 .navbar-brand {
     opacity: 1;

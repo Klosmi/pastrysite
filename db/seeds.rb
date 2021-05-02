@@ -3,7 +3,7 @@ Tool.destroy_all
 User.destroy_all
 ## Code Linda ##
 
-user= User.new(email:"miklos.ferencz@gmail.com", password:"password")
+user= User.new(email:"linda.ounissi@outlook.fr", password:"password")
 user.save
 ## Code Equipe ##
 # user.save

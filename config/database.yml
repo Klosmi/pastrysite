@@ -82,4 +82,4 @@ production:
   <<: *default
   database: _pastry_confiction_tool_production
   username: _pastry_confiction_tool
-  # password: <%= ENV['_PASTRY_CONFICTION_TOOL_DATABASE_PASSWORD'] %>
+  password: <%= ENV['_PASTRY_CONFICTION_TOOL_DATABASE_PASSWORD'] %>
