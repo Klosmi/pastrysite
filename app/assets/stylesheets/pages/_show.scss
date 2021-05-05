@@ -63,6 +63,7 @@
     font-weight: 600;
     color: $color-purple;
     font-size: 18px;
+    transition-duration: 700ms;
     &:hover{
       color: $color-lightpurple;
     }
