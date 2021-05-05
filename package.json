@@ -2,7 +2,6 @@
   "name": "_pastry_confiction_tool",
   "private": true,
   "dependencies": {
-    "@algolia/autocomplete-js": "^1.0.0-alpha.44",
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
@@ -12,9 +11,10 @@
     "channels": "^0.0.4",
     "flatpickr": "^4.6.9",
     "jquery": "^3.6.0",
-    "mapbox-gl": "^2.1.1",
+    "mapbox-gl": ">= 0.47.0 < 2.0.0",
     "popper.js": "^1.16.1",
-    "turbolinks": "^5.2.0"
+    "turbolinks": "^5.2.0",
+    "webpack": "^4.0.0 || ^5.0.0"
   },
   "version": "0.1.0",
   "devDependencies": {
