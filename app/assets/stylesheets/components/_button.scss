@@ -12,11 +12,13 @@
         color: #FFF;
         text-decoration: none;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        transition-duration: 800ms;
     }
 
 }
 
 .back-btn {
+    background-color: rgba(93, 108, 252, 1);
     background: linear-gradient(207deg, rgba(209, 95, 255, 1) 0%, rgba(93, 108, 252, 1) 100%);
     border-radius: 50px;
     font-weight: 600;
@@ -27,10 +29,12 @@
     height: 40px !important;
 
     &:hover {
+        background-color: rgba(173, 213, 204, 1);
         background: linear-gradient(207deg, rgba(173, 213, 204, 1) 0%, rgba(163, 165, 215, 1) 100%);
         color: #FFF;
         text-decoration: none;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        transition-duration: 800ms;
     }
 }
 
@@ -40,7 +44,7 @@
 }
 
 .poligon-button-home {
-    background: rgba(173, 213, 204, 1);
+    background-color: rgba(173, 213, 204, 1);
     transition: 800ms cubic-bezier(1, 0, 0.5, 1);
     clip-path: circle(100px at center);
     padding: 100px;
@@ -55,10 +59,12 @@
         background-color: rgba(93, 108, 252, 1);
         color: rgba(173, 213, 204, 1);
         text-decoration: none;
+        transition-duration: 800ms;
     }
 }
 
 .booking-button {
+    background-color: rgba(93, 108, 252, 1);
     background: linear-gradient(207deg, rgba(209, 95, 255, 1) 0%, rgba(93, 108, 252, 1) 100%);
     border-radius: 50px;
     font-weight: 600;
@@ -69,10 +75,12 @@
     height: 40px !important;
 
     &:hover {
+        background-color: rgba(173, 213, 204, 1);
         background: linear-gradient(207deg, rgba(173, 213, 204, 1) 0%, rgba(163, 165, 215, 1) 100%);
         color: #FFF;
         text-decoration: none;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        transition-duration: 800ms;
     }
 }
 
@@ -85,10 +93,13 @@
     &:hover {
         color: $color-purple;
         text-decoration: none;
+        transition-duration: 800ms;
+
     }
 }
 
 .login-button {
+    background-color: rgba(93, 108, 252, 1);
     background: linear-gradient(207deg, rgba(209, 95, 255, 1) 0%, rgba(93, 108, 252, 1) 100%);
     border-radius: 50px;
     font-weight: 600;
@@ -99,10 +110,12 @@
     height: 40px !important;
 
     &:hover {
+        background-color: rgba(173, 213, 204, 1);
         background: linear-gradient(207deg, rgba(173, 213, 204, 1) 0%, rgba(163, 165, 215, 1) 100%);
         color: #FFF;
         text-decoration: none;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        transition-duration: 800ms;
     }
 
 }
