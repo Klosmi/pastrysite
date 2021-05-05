@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .guest-confirmed-name-email {
     display: flex;
     flex-direction: column;
@@ -20,3 +21,30 @@
   justify-content: flex-start;
   color: $color-lightgreen;
 }
+||||||| merged common ancestors
+=======
+.guest-confirmed-name-email {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30vw;
+}
+
+.confirmed-name {
+    display: flex;
+    justify-content: flex-start;
+    color: $color-purple;
+}
+
+.guest-confirmed-firstname {
+    padding-right: 10px;
+}
+
+.guest-confirmed-lastname {
+    text-transform: uppercase;
+}
+
+.email-confirmed {
+    justify-content: flex-start;
+    color: $color-lightgreen;
+}
+>>>>>>> loginokay-styling
