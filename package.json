@@ -2,13 +2,6 @@
   "name": "_pastry_confiction_tool",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-||||||| merged common ancestors
-    "@algolia/autocomplete-js": "^1.0.0-alpha.44",
-=======
-    "@algolia/autocomplete-js": "^1.0.0-alpha.44",
-    "@algolia/client-search": "^4.5.1",
->>>>>>> loginokay-styling
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
@@ -19,23 +12,12 @@
     "channels": "^0.0.4",
     "flatpickr": "^4.6.9",
     "jquery": "^3.6.0",
-<<<<<<< HEAD
-    "mapbox-gl": ">= 0.47.0 < 2.0.0",
-||||||| merged common ancestors
-    "mapbox-gl": "^2.1.1",
-=======
     "mapbox-gl": ">=0.47.0 <2.0.0",
->>>>>>> loginokay-styling
     "popper.js": "^1.16.1",
-<<<<<<< HEAD
     "turbolinks": "^5.2.0",
-    "webpack": "^5.35.1"
-||||||| merged common ancestors
-    "turbolinks": "^5.2.0"
-=======
+    "webpack": "^5.35.1",
     "turbolinks": "^5.2.0",
     "webpack": "^4.0.0 || ^5.0.0"
->>>>>>> loginokay-styling
   },
   "version": "0.1.0",
   "devDependencies": {
