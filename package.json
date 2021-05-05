@@ -2,13 +2,6 @@
   "name": "_pastry_confiction_tool",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-||||||| merged common ancestors
-    "@algolia/autocomplete-js": "^1.0.0-alpha.44",
-=======
-    "@algolia/autocomplete-js": "^1.0.0-alpha.44",
-    "@algolia/client-search": "^4.5.1",
->>>>>>> changes
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
