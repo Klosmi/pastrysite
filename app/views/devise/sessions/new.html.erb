@@ -9,29 +9,6 @@
         <%= f.input :password,
                 required: false,
                 input_html: { autocomplete: "current-password" } %>
-<<<<<<< HEAD
-    <%= f.input :remember_me, class:"remember_me", as: :boolean if devise_mapping.rememberable? %>
-    </div>
-    <div class="form-actions">
-        <%= f.button :submit, "Log in" %>
-    </div>
-    <% end %>
-    <div class="shared-links btn primary">
-        <%= render "devise/shared/links" %>
-    </div>
-||||||| merged common ancestors
-    <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
-  </div>
-
-  <div class="form-actions">
-    <%= f.button :submit, "Log in" %>
-  </div>
-<% end %>
-
-<%= render "devise/shared/links" %>
-</div>
-</div>
-=======
     <%= f.input :remember_me, class:"remember_me", as: :boolean if devise_mapping.rememberable? %>
     </div>
     <div class="form-actions d-flex justify-content-center mb-5">
@@ -41,5 +18,4 @@
     <div class="shared-links">
         <%= render "devise/shared/links" %>
     </div>
->>>>>>> loginokay-styling
 </div>
